@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>test</groupId>
+		<artifactId>template-store</artifactId>
+		<version>DYNAMIC-SNAPSHOT</version>
+	</parent>
+
+	<groupId>test</groupId>
+	<artifactId>template-store-service</artifactId>
+	<version>DYNAMIC-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>${project.artifactId}</name>
+	
+	<!-- <build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+					<webResources>
+						<resource>
+							<directory>lib</directory>
+							<includes>
+								<include>*.jar</include>
+							</includes>
+							<targetPath>WEB-INF/lib</targetPath>
+						</resource>
+					</webResources>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build> -->
+	
+	<dependencies>
+		<dependency>
+			<groupId>jaxen</groupId>
+			<artifactId>jaxen</artifactId>
+			<version>1.1.6</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.directory.api</groupId>
+			<artifactId>api-ldap-client-all</artifactId>
+			<version>1.0.0-M15</version>
+		</dependency>
+		<!-- <dependency>
+			<groupId>lib</groupId>
+			<artifactId>rest-api-base-0.11.0.126.jar</artifactId>
+			<version>0.11.0.126</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/rest-api-base-0.11.0.126.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>lib</groupId>
+			<artifactId>rest-client-base-0.11.0.126.jar</artifactId>
+			<version>0.11.0.126</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/rest-client-base-0.11.0.126.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>lib</groupId>
+			<artifactId>rest-impl-base-0.11.0.126.jar</artifactId>
+			<version>0.11.0.126</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/rest-impl-base-0.11.0.126.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>lib</groupId>
+			<artifactId>rest-provider-0.11.0.126.jar</artifactId>
+			<version>0.11.0.126</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/rest-provider-0.11.0.126.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>lib</groupId>
+			<artifactId>rest-security-base-0.11.0.126.jar</artifactId>
+			<version>0.11.0.126</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/rest-security-base-0.11.0.126.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>lib</groupId>
+			<artifactId>rest-server-0.11.0.126.jar</artifactId>
+			<version>0.11.0.126</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/rest-server-0.11.0.126.jar</systemPath>
+		</dependency> -->
+		<!-- <dependency>
+			<groupId>lib</groupId>
+			<artifactId>testo-configuration-0.11.0.126.jar</artifactId>
+			<version>0.11.0.126</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/testo-configuration-0.11.0.126.jar</systemPath>
+		</dependency> -->
+		<dependency>
+			<groupId>lib</groupId>
+			<artifactId>testo-content-store-api-0.11.0.126.jar</artifactId>
+			<version>0.11.0.126</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/testo-content-store-api-0.11.0.126.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>lib</groupId>
+			<artifactId>testo-content-store-filesystem-0.11.0.126.jar</artifactId>
+			<version>0.11.0.126</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/testo-content-store-filesystem-0.11.0.126.jar</systemPath>
+		</dependency>
+		<!-- <dependency>
+			<groupId>lib</groupId>
+			<artifactId>testo-enums-0.11.0.126.jar</artifactId>
+			<version>0.11.0.126</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/testo-enums-0.11.0.126.jar</systemPath>
+		</dependency> -->
+		<dependency>
+			<groupId>lib</groupId>
+			<artifactId>testo-rest-api-0.11.0.126.jar</artifactId>
+			<version>0.11.0.126</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/testo-rest-api-0.11.0.126.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>lib</groupId>
+			<artifactId>testo-rest-impl-0.11.0.126.jar</artifactId>
+			<version>0.11.0.126</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/testo-rest-impl-0.11.0.126.jar</systemPath>
+		</dependency>
+	</dependencies>
+	<!-- <dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>com.nsn.ood.common</groupId>
+				<artifactId>OODParent</artifactId>
+				<version>${OODParentVersion}</version>
+				<exclusions>
+					<exclusion>
+						<groupId>javax.ejb</groupId>
+						<artifactId>ejb-api</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+			<dependency>
+				<groupId>com.nsn.ood.common</groupId>
+				<artifactId>OODCommon</artifactId>
+				<version>${common.version}</version>
+				<exclusions>
+					<exclusion>
+						<groupId>javax.ejb</groupId>
+						<artifactId>ejb-api</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+		</dependencies>
+	</dependencyManagement> -->
+</project>
+		
+		

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name>Template-Store Service</display-name>
+<!-- 	<context-param>
+		<param-name>resteasy.resources</param-name>
+		<param-value>com.nokia.cnd.service.CatalougeService</param-value>
+	</context-param>
+	
+	<listener>
+		<listener-class>
+			org.jboss.resteasy.plugins.server.servlet.ResteasyBootstrap
+		</listener-class>
+	</listener>
+	<servlet>
+		<servlet-name>resteasy-servlet</servlet-name>
+		<servlet-class>
+			org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher
+		</servlet-class>
+
+	</servlet> -->
+
+    <servlet-mapping>
+		<servlet-name>javax.ws.rs.core.Application</servlet-name>
+		<url-pattern>/*</url-pattern>
+	</servlet-mapping>
+	
+	<env-entry>
+       <description>JNDI logging context for this content pack</description>
+       <env-entry-name>logback/context-name</env-entry-name>
+       <env-entry-type>java.lang.String</env-entry-type>
+       <env-entry-value>nwo</env-entry-value>
+	</env-entry>
+	<env-entry>
+       <description>URL for configuring logback context</description>
+       <env-entry-name>logback/configuration-resource</env-entry-name>
+       <env-entry-type>java.lang.String</env-entry-type>
+       <env-entry-value>nwo.xml</env-entry-value>
+	</env-entry>
+	<env-entry>
+       <description>Content Pack name</description>
+       <env-entry-name>cpName</env-entry-name>
+       <env-entry-type>java.lang.String</env-entry-type>
+       <env-entry-value>nwo</env-entry-value>
+	</env-entry>
+
+</web-app>
