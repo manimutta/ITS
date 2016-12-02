@@ -36762,3 +36762,1205 @@ Started GET "/assets/services.self-fe752a7dfe9490dad8160aaa3ba5400b33a309a7f89d8
 
 
 Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-12-03 02:14:59 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-03 02:49:03 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (2.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TicketsController#index as HTML
+Completed 401 Unauthorized in 30ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-12-03 02:49:03 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (45.0ms)
+  Rendered application/_navbar.html.erb (2.5ms)
+Completed 200 OK in 953ms (Views: 926.9ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-12-03 02:49:04 +0530
+
+
+Started GET "/assets/font-awesome.self-2a86d2017f4b74f22943750b3b50b9cb753581bab96cbdaaf2df53f4c04c995b.css?body=1" for 127.0.0.1 at 2016-12-03 02:49:04 +0530
+
+
+Started GET "/assets/bootstrap-material-design.min.self-5eca3b9e412190c478a60341eeee3bfd5626cafd5635345d47d1cf6616f12009.css?body=1" for 127.0.0.1 at 2016-12-03 02:49:04 +0530
+
+
+Started GET "/assets/style.self-48bd0c86b2cd7278c0ff9f5fc705e19858c116cc154d57a513b93a56a31ca2e6.css?body=1" for 127.0.0.1 at 2016-12-03 02:49:04 +0530
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-12-03 02:49:04 +0530
+
+
+Started GET "/assets/application.self-046c6d7dec7f7f0fb45286d189d0ccc2b9d441512db304881f46a21b55006030.css?body=1" for 127.0.0.1 at 2016-12-03 02:49:04 +0530
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-12-03 02:49:04 +0530
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-12-03 02:49:05 +0530
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-12-03 02:49:05 +0530
+
+
+Started GET "/assets/material.min.self-c4bc7daadf79bbcf4f2ca8191bdfc7ec86f5c6b3f20ae8b6d41bd8af28d9f735.js?body=1" for 127.0.0.1 at 2016-12-03 02:49:05 +0530
+
+
+Started GET "/assets/ripples.min.self-694723e2b2814bfbba56d969ededb398f4b91d08ea541e685cf9bb744f935802.js?body=1" for 127.0.0.1 at 2016-12-03 02:49:05 +0530
+
+
+Started GET "/assets/services.self-fe752a7dfe9490dad8160aaa3ba5400b33a309a7f89d83c151a4d50b94099076.js?body=1" for 127.0.0.1 at 2016-12-03 02:49:05 +0530
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-12-03 02:49:05 +0530
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2016-12-03 02:49:08 +0530
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/application (0.0ms)
+  Rendered application/_navbar.html.erb (0.0ms)
+Completed 200 OK in 315ms (Views: 313.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-12-03 02:49:27 +0530
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BvPOXRAP5viqX8DsgMRYTBAyn6efOVW/ritgcAxtTw4Za0xDDbIhb+0R6S2HM5M4T5xpZFxVK8cVgokQkUL4CA==", "user"=>{"fullname"=>"askdbaksdk", "email"=>"ajsdhv@jahsdv.asjdvh", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mUser Exists (2.5ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'ajsdhv@jahsdv.asjdvh' LIMIT 1[0m
+  [1m[35mSQL (2.5ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "fullname", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["email", "ajsdhv@jahsdv.asjdvh"], ["encrypted_password", "$2a$11$jIHCmUUSUDugJUGxpVchEemrxwPoGF6YzQ30WvWiCOOxYLhNvcx6."], ["fullname", "askdbaksdk"], ["created_at", "2016-12-02 21:19:27.560808"], ["updated_at", "2016-12-02 21:19:27.560808"]]
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 268ms (ActiveRecord: 5.0ms)
+
+NameError (uninitialized constant User::RoleUsers):
+  app/models/user.rb:20:in `set_roles'
+
+
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1375.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1107.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2670.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-03 02:55:30 +0530
+Processing by TicketsController#index as HTML
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-12-03 02:55:30 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (17.5ms)
+  Rendered application/_navbar.html.erb (2.5ms)
+Completed 200 OK in 355ms (Views: 338.2ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2016-12-03 02:55:34 +0530
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/application (10.0ms)
+  Rendered application/_navbar.html.erb (10.0ms)
+Completed 200 OK in 255ms (Views: 252.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-12-03 02:55:48 +0530
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"apGhLOmukZAPRnKDiNdM4pxaYj4oFAAXsW7HrUhJisN1CSMy9BNWB0gIW0KPIIeWw/SU/et4fm8Kxy7N1WY9xQ==", "user"=>{"fullname"=>"mani", "email"=>"mani4654@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mUser Exists (2.5ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'mani4654@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (2.5ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "fullname", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["email", "mani4654@gmail.com"], ["encrypted_password", "$2a$11$2jJ9LWI9.D9XEb.JIRMGheYBHWDsdcis0MXoN0QQIxx5cLnlR.3PG"], ["fullname", "mani"], ["created_at", "2016-12-02 21:25:48.602077"], ["updated_at", "2016-12-02 21:25:48.602077"]]
+  [1m[36mRole Load (2.5ms)[0m  [1mSELECT  "roles".* FROM "roles" WHERE "roles"."name" = $1  ORDER BY "roles"."id" ASC LIMIT 1[0m  [["name", "Customer"]]
+  [1m[35m (27.5ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.5ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "last_sign_in_ip" = $3, "current_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = $7  [["last_sign_in_at", "2016-12-02 21:25:48.687078"], ["current_sign_in_at", "2016-12-02 21:25:48.687078"], ["last_sign_in_ip", "127.0.0.1/32"], ["current_sign_in_ip", "127.0.0.1/32"], ["sign_in_count", 1], ["updated_at", "2016-12-02 21:25:48.689578"], ["id", 2]]
+  [1m[36m (2.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tickets
+Completed 302 Found in 430ms (ActiveRecord: 47.5ms)
+
+
+Started GET "/tickets" for 127.0.0.1 at 2016-12-03 02:55:48 +0530
+Processing by TicketsController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTicket Load (2.5ms)[0m  [1mSELECT "tickets".* FROM "tickets"[0m
+  Rendered tickets/index.html.erb within layouts/application (10.0ms)
+  [1m[35m (0.0ms)[0m  SELECT "roles"."name" FROM "roles" INNER JOIN "role_users" ON "roles"."id" = "role_users"."role_id" WHERE "role_users"."user_id" = $1  [["user_id", 2]]
+  Rendered application/_navbar.html.erb (35.0ms)
+Completed 200 OK in 248ms (Views: 225.3ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2016-12-03 02:55:49 +0530
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff2"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1682.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1115.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2597.5ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2016-12-03 02:55:54 +0530
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (2369.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1235.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2667.5ms)
+  [1m[36mSQL (0.0ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (30.0ms)[0m  DROP TABLE "comments" CASCADE
+  [1m[36m (20.0ms)[0m  [1mCREATE TABLE "comments" ("id" serial primary key, "user_id" integer, "ticket_id" integer, "comment" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (10.0ms)[0m  CREATE  INDEX  "index_comments_on_ticket_id" ON "comments" USING btree ("ticket_id")
+  [1m[36m (10.0ms)[0m  [1mCREATE  INDEX  "index_comments_on_user_id" ON "comments" USING btree ("user_id")[0m
+  [1m[35m (10.0ms)[0m  DROP TABLE "role_users" CASCADE
+  [1m[36m (20.0ms)[0m  [1mCREATE TABLE "role_users" ("id" serial primary key, "user_id" integer, "role_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (10.0ms)[0m  CREATE  INDEX  "index_role_users_on_role_id" ON "role_users" USING btree ("role_id")
+  [1m[36m (10.0ms)[0m  [1mCREATE  INDEX  "index_role_users_on_user_id" ON "role_users" USING btree ("user_id")[0m
+  [1m[35m (10.0ms)[0m  DROP TABLE "roles" CASCADE
+  [1m[36m (20.0ms)[0m  [1mCREATE TABLE "roles" ("id" serial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (10.0ms)[0m  DROP TABLE "tickets" CASCADE
+  [1m[36m (20.0ms)[0m  [1mCREATE TABLE "tickets" ("id" serial primary key, "title" character varying, "description" text, "user_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (10.0ms)[0m  CREATE  INDEX  "index_tickets_on_user_id" ON "tickets" USING btree ("user_id")
+  [1m[36m (10.0ms)[0m  [1mDROP TABLE "users" CASCADE[0m
+  [1m[35m (20.0ms)[0m  CREATE TABLE "users" ("id" serial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "fullname" character varying, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "status" boolean, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (10.0ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_email" ON "users" USING btree ("email")[0m
+  [1m[35m (10.0ms)[0m  CREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users" USING btree ("reset_password_token")
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35mSQL (0.0ms)[0m  CREATE EXTENSION IF NOT EXISTS "plpgsql"
+  [1m[36m (30.0ms)[0m  [1mCREATE TABLE "comments" ("id" serial primary key, "user_id" integer, "ticket_id" integer, "comment" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (10.0ms)[0m  CREATE  INDEX  "index_comments_on_ticket_id" ON "comments" USING btree ("ticket_id")
+  [1m[36m (10.0ms)[0m  [1mCREATE  INDEX  "index_comments_on_user_id" ON "comments" USING btree ("user_id")[0m
+  [1m[35m (20.0ms)[0m  CREATE TABLE "role_users" ("id" serial primary key, "user_id" integer, "role_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (10.0ms)[0m  [1mCREATE  INDEX  "index_role_users_on_role_id" ON "role_users" USING btree ("role_id")[0m
+  [1m[35m (10.0ms)[0m  CREATE  INDEX  "index_role_users_on_user_id" ON "role_users" USING btree ("user_id")
+  [1m[36m (10.0ms)[0m  [1mCREATE TABLE "roles" ("id" serial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (20.0ms)[0m  CREATE TABLE "tickets" ("id" serial primary key, "title" character varying, "description" text, "user_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (10.0ms)[0m  [1mCREATE  INDEX  "index_tickets_on_user_id" ON "tickets" USING btree ("user_id")[0m
+  [1m[35m (10.0ms)[0m  CREATE TABLE "users" ("id" serial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "fullname" character varying, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "status" boolean, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (10.0ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_email" ON "users" USING btree ("email")[0m
+  [1m[35m (10.0ms)[0m  CREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users" USING btree ("reset_password_token")
+  [1m[36m (20.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (10.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20161202132553')
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20161130204258')[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20161130204619')
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20161130205104')[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20161130205141')
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mRole Exists (0.0ms)[0m  [1mSELECT  1 AS one FROM "roles" WHERE "roles"."name" = 'Admin' LIMIT 1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "roles" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "Admin"], ["created_at", "2016-12-02 21:31:52.502140"], ["updated_at", "2016-12-02 21:31:52.502140"]]
+  [1m[36m (10.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mRole Exists (0.0ms)[0m  [1mSELECT  1 AS one FROM "roles" WHERE "roles"."name" = 'Customer' LIMIT 1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "roles" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "Customer"], ["created_at", "2016-12-02 21:31:52.512140"], ["updated_at", "2016-12-02 21:31:52.512140"]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mRole Exists (0.0ms)[0m  [1mSELECT  1 AS one FROM "roles" WHERE "roles"."name" = 'SupportHead' LIMIT 1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "roles" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "SupportHead"], ["created_at", "2016-12-02 21:31:52.512140"], ["updated_at", "2016-12-02 21:31:52.512140"]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mUser Exists (10.0ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'admin@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "users" ("fullname", "email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["fullname", "mani"], ["email", "admin@gmail.com"], ["encrypted_password", "$2a$11$hy0xHRSvX//pOvYL0Y6cSupI1BzZs0aLAZXqgGNXO7W1/DyUq535y"], ["created_at", "2016-12-02 21:31:52.702140"], ["updated_at", "2016-12-02 21:31:52.702140"]]
+  [1m[36mRole Load (0.0ms)[0m  [1mSELECT  "roles".* FROM "roles" WHERE "roles"."name" = $1  ORDER BY "roles"."id" ASC LIMIT 1[0m  [["name", "Customer"]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-03 03:02:26 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TicketsController#index as HTML
+  [1m[35mUser Load (2.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 401 Unauthorized in 55ms (ActiveRecord: 12.5ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-12-03 03:02:27 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (2.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (50.0ms)
+  Rendered application/_navbar.html.erb (2.5ms)
+Completed 200 OK in 843ms (Views: 825.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-12-03 03:02:38 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BW5NDr20bEVJzKQwck65ExOPeO0iOnAxIfukToOY7Psa9s8QoAmr0g6CjfF1uXJnTCGOLuFWDkmaUk0uHrdb/Q==", "user"=>{"email"=>"admin@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "admin@gmail.com"]]
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "last_sign_in_ip" = $3, "current_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = $7[0m  [["last_sign_in_at", "2016-12-02 21:32:38.857303"], ["current_sign_in_at", "2016-12-02 21:32:38.857303"], ["last_sign_in_ip", "127.0.0.1/32"], ["current_sign_in_ip", "127.0.0.1/32"], ["sign_in_count", 1], ["updated_at", "2016-12-02 21:32:38.859803"], ["id", 1]]
+  [1m[35m (5.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 433ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-03 03:02:39 +0530
+Processing by TicketsController#index as HTML
+  [1m[36mUser Load (2.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mTicket Load (0.0ms)[0m  SELECT "tickets".* FROM "tickets"
+  Rendered tickets/index.html.erb within layouts/application (7.5ms)
+  [1m[36m (7.5ms)[0m  [1mSELECT "roles"."name" FROM "roles" INNER JOIN "role_users" ON "roles"."id" = "role_users"."role_id" WHERE "role_users"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered application/_navbar.html.erb (65.0ms)
+Completed 200 OK in 298ms (Views: 260.4ms | ActiveRecord: 20.0ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2016-12-03 03:02:39 +0530
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff2"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1825.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1292.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2950.0ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2016-12-03 03:02:45 +0530
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1745.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1217.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2765.0ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.ttf" for 127.0.0.1 at 2016-12-03 03:02:50 +0530
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (3795.1ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1567.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (3370.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-03 03:03:16 +0530
+Processing by TicketsController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mTicket Load (0.0ms)[0m  [1mSELECT "tickets".* FROM "tickets"[0m
+  Rendered tickets/index.html.erb within layouts/application (2.5ms)
+  [1m[35m (2.5ms)[0m  SELECT "roles"."name" FROM "roles" INNER JOIN "role_users" ON "roles"."id" = "role_users"."role_id" WHERE "role_users"."user_id" = $1  [["user_id", 1]]
+  Rendered application/_navbar.html.erb (7.5ms)
+Completed 200 OK in 388ms (Views: 376.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/bootstrap-material-design.min.self-5eca3b9e412190c478a60341eeee3bfd5626cafd5635345d47d1cf6616f12009.css?body=1" for 127.0.0.1 at 2016-12-03 03:03:16 +0530
+
+
+Started GET "/assets/font-awesome.self-2a86d2017f4b74f22943750b3b50b9cb753581bab96cbdaaf2df53f4c04c995b.css?body=1" for 127.0.0.1 at 2016-12-03 03:03:16 +0530
+
+
+Started GET "/assets/application.self-046c6d7dec7f7f0fb45286d189d0ccc2b9d441512db304881f46a21b55006030.css?body=1" for 127.0.0.1 at 2016-12-03 03:03:17 +0530
+
+
+Started GET "/assets/style.self-48bd0c86b2cd7278c0ff9f5fc705e19858c116cc154d57a513b93a56a31ca2e6.css?body=1" for 127.0.0.1 at 2016-12-03 03:03:17 +0530
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-12-03 03:03:17 +0530
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-12-03 03:03:17 +0530
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-12-03 03:03:17 +0530
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-12-03 03:03:17 +0530
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-12-03 03:03:17 +0530
+
+
+Started GET "/assets/material.min.self-c4bc7daadf79bbcf4f2ca8191bdfc7ec86f5c6b3f20ae8b6d41bd8af28d9f735.js?body=1" for 127.0.0.1 at 2016-12-03 03:03:17 +0530
+
+
+Started GET "/assets/ripples.min.self-694723e2b2814bfbba56d969ededb398f4b91d08ea541e685cf9bb744f935802.js?body=1" for 127.0.0.1 at 2016-12-03 03:03:17 +0530
+
+
+Started GET "/assets/services.self-fe752a7dfe9490dad8160aaa3ba5400b33a309a7f89d83c151a4d50b94099076.js?body=1" for 127.0.0.1 at 2016-12-03 03:03:17 +0530
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-12-03 03:03:17 +0530
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2016-12-03 03:03:19 +0530
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff2"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1702.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1170.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2672.5ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2016-12-03 03:03:25 +0530
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1765.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1200.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2725.0ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.ttf" for 127.0.0.1 at 2016-12-03 03:03:30 +0530
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1737.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1182.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2727.5ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+  [1m[36mRole Load (0.0ms)[0m  [1mSELECT "roles".* FROM "roles" INNER JOIN "role_users" ON "roles"."id" = "role_users"."role_id" WHERE "role_users"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+  [1m[36mSQL (0.0ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (10.0ms)[0m  DROP TABLE "comments" CASCADE
+  [1m[36m (20.0ms)[0m  [1mCREATE TABLE "comments" ("id" serial primary key, "user_id" integer, "ticket_id" integer, "comment" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (10.0ms)[0m  CREATE  INDEX  "index_comments_on_ticket_id" ON "comments" USING btree ("ticket_id")
+  [1m[36m (10.0ms)[0m  [1mCREATE  INDEX  "index_comments_on_user_id" ON "comments" USING btree ("user_id")[0m
+  [1m[35m (0.0ms)[0m  DROP TABLE "role_users" CASCADE
+  [1m[36m (10.0ms)[0m  [1mCREATE TABLE "role_users" ("id" serial primary key, "user_id" integer, "role_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  CREATE  INDEX  "index_role_users_on_role_id" ON "role_users" USING btree ("role_id")
+  [1m[36m (0.0ms)[0m  [1mCREATE  INDEX  "index_role_users_on_user_id" ON "role_users" USING btree ("user_id")[0m
+  [1m[35m (10.0ms)[0m  DROP TABLE "roles" CASCADE
+  [1m[36m (20.0ms)[0m  [1mCREATE TABLE "roles" ("id" serial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (10.0ms)[0m  DROP TABLE "tickets" CASCADE
+  [1m[36m (10.0ms)[0m  [1mCREATE TABLE "tickets" ("id" serial primary key, "title" character varying, "description" text, "user_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  CREATE  INDEX  "index_tickets_on_user_id" ON "tickets" USING btree ("user_id")
+  [1m[36m (10.0ms)[0m  [1mDROP TABLE "users" CASCADE[0m
+  [1m[35m (10.0ms)[0m  CREATE TABLE "users" ("id" serial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "fullname" character varying, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "status" boolean, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_email" ON "users" USING btree ("email")[0m
+  [1m[35m (10.0ms)[0m  CREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users" USING btree ("reset_password_token")
+  [1m[36m (10.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35mSQL (0.0ms)[0m  CREATE EXTENSION IF NOT EXISTS "plpgsql"
+  [1m[36m (10.0ms)[0m  [1mDROP TABLE "comments" CASCADE[0m
+  [1m[35m (20.0ms)[0m  CREATE TABLE "comments" ("id" serial primary key, "user_id" integer, "ticket_id" integer, "comment" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mCREATE  INDEX  "index_comments_on_ticket_id" ON "comments" USING btree ("ticket_id")[0m
+  [1m[35m (10.0ms)[0m  CREATE  INDEX  "index_comments_on_user_id" ON "comments" USING btree ("user_id")
+  [1m[36m (0.0ms)[0m  [1mDROP TABLE "role_users" CASCADE[0m
+  [1m[35m (10.0ms)[0m  CREATE TABLE "role_users" ("id" serial primary key, "user_id" integer, "role_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (10.0ms)[0m  [1mCREATE  INDEX  "index_role_users_on_role_id" ON "role_users" USING btree ("role_id")[0m
+  [1m[35m (0.0ms)[0m  CREATE  INDEX  "index_role_users_on_user_id" ON "role_users" USING btree ("user_id")
+  [1m[36m (0.0ms)[0m  [1mDROP TABLE "roles" CASCADE[0m
+  [1m[35m (20.0ms)[0m  CREATE TABLE "roles" ("id" serial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (10.0ms)[0m  [1mDROP TABLE "tickets" CASCADE[0m
+  [1m[35m (20.0ms)[0m  CREATE TABLE "tickets" ("id" serial primary key, "title" character varying, "description" text, "user_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (10.0ms)[0m  [1mCREATE  INDEX  "index_tickets_on_user_id" ON "tickets" USING btree ("user_id")[0m
+  [1m[35m (10.0ms)[0m  DROP TABLE "users" CASCADE
+  [1m[36m (20.0ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "fullname" character varying, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "status" boolean, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (10.0ms)[0m  CREATE UNIQUE INDEX  "index_users_on_email" ON "users" USING btree ("email")
+  [1m[36m (10.0ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users" USING btree ("reset_password_token")[0m
+  [1m[35m (10.0ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mRole Exists (0.0ms)[0m  [1mSELECT  1 AS one FROM "roles" WHERE "roles"."name" = 'Admin' LIMIT 1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "roles" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "Admin"], ["created_at", "2016-12-02 21:37:19.858291"], ["updated_at", "2016-12-02 21:37:19.858291"]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mRole Exists (10.0ms)[0m  [1mSELECT  1 AS one FROM "roles" WHERE "roles"."name" = 'Customer' LIMIT 1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "roles" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "Customer"], ["created_at", "2016-12-02 21:37:19.868291"], ["updated_at", "2016-12-02 21:37:19.868291"]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mRole Exists (0.0ms)[0m  [1mSELECT  1 AS one FROM "roles" WHERE "roles"."name" = 'SupportHead' LIMIT 1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "roles" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "SupportHead"], ["created_at", "2016-12-02 21:37:19.868291"], ["updated_at", "2016-12-02 21:37:19.868291"]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'admin@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "users" ("fullname", "email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["fullname", "mani"], ["email", "admin@gmail.com"], ["encrypted_password", "$2a$11$YsHYxFqd7.xyaz7svIejQeNH6mZHZ3d5A/4oMtmwUZT9SQDFGuhOa"], ["created_at", "2016-12-02 21:37:20.058292"], ["updated_at", "2016-12-02 21:37:20.058292"]]
+  [1m[36mRole Load (0.0ms)[0m  [1mSELECT  "roles".* FROM "roles" WHERE "roles"."name" = $1  ORDER BY "roles"."id" ASC LIMIT 1[0m  [["name", "Customer"]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-03 03:07:44 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (2.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TicketsController#index as HTML
+  [1m[35mUser Load (5.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 401 Unauthorized in 70ms (ActiveRecord: 15.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-12-03 03:07:44 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (45.0ms)
+  Rendered application/_navbar.html.erb (2.5ms)
+Completed 200 OK in 800ms (Views: 794.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-material-design.min.self-5eca3b9e412190c478a60341eeee3bfd5626cafd5635345d47d1cf6616f12009.css?body=1" for 127.0.0.1 at 2016-12-03 03:07:45 +0530
+
+
+Started GET "/assets/font-awesome.self-2a86d2017f4b74f22943750b3b50b9cb753581bab96cbdaaf2df53f4c04c995b.css?body=1" for 127.0.0.1 at 2016-12-03 03:07:45 +0530
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-12-03 03:07:45 +0530
+
+
+Started GET "/assets/application.self-046c6d7dec7f7f0fb45286d189d0ccc2b9d441512db304881f46a21b55006030.css?body=1" for 127.0.0.1 at 2016-12-03 03:07:46 +0530
+
+
+Started GET "/assets/style.self-48bd0c86b2cd7278c0ff9f5fc705e19858c116cc154d57a513b93a56a31ca2e6.css?body=1" for 127.0.0.1 at 2016-12-03 03:07:46 +0530
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-12-03 03:07:46 +0530
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-12-03 03:07:46 +0530
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-12-03 03:07:46 +0530
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-12-03 03:07:46 +0530
+
+
+Started GET "/assets/material.min.self-c4bc7daadf79bbcf4f2ca8191bdfc7ec86f5c6b3f20ae8b6d41bd8af28d9f735.js?body=1" for 127.0.0.1 at 2016-12-03 03:07:46 +0530
+
+
+Started GET "/assets/ripples.min.self-694723e2b2814bfbba56d969ededb398f4b91d08ea541e685cf9bb744f935802.js?body=1" for 127.0.0.1 at 2016-12-03 03:07:46 +0530
+
+
+Started GET "/assets/services.self-fe752a7dfe9490dad8160aaa3ba5400b33a309a7f89d83c151a4d50b94099076.js?body=1" for 127.0.0.1 at 2016-12-03 03:07:46 +0530
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-12-03 03:07:46 +0530
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-12-03 03:07:56 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9KORcMHKde6cjYx1yuZJ/CkKZG+pnJixumwh/DjZNyZarQV8NDPBNos0kaWuvsMs/1RJ83rUX7l21wNG6Xt8rQ==", "user"=>{"email"=>"admin@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (2.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "admin@gmail.com"]]
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (2.5ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "last_sign_in_ip" = $3, "current_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = $7[0m  [["last_sign_in_at", "2016-12-02 21:37:56.790408"], ["current_sign_in_at", "2016-12-02 21:37:56.790408"], ["last_sign_in_ip", "127.0.0.1/32"], ["current_sign_in_ip", "127.0.0.1/32"], ["sign_in_count", 1], ["updated_at", "2016-12-02 21:37:56.792908"], ["id", 1]]
+  [1m[35m (2.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 433ms (ActiveRecord: 7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-03 03:07:57 +0530
+Processing by TicketsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mTicket Load (2.5ms)[0m  SELECT "tickets".* FROM "tickets"
+  Rendered tickets/index.html.erb within layouts/application (5.0ms)
+  [1m[36m (5.0ms)[0m  [1mSELECT "roles"."name" FROM "roles" INNER JOIN "role_users" ON "roles"."id" = "role_users"."role_id" WHERE "role_users"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered application/_navbar.html.erb (67.5ms)
+Completed 200 OK in 278ms (Views: 246.9ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2016-12-03 03:07:57 +0530
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff2"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1897.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1285.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2965.0ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2016-12-03 03:08:03 +0530
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1652.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1440.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (3412.6ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.ttf" for 127.0.0.1 at 2016-12-03 03:08:09 +0530
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (2070.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1405.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (3367.1ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35mRole Load (10.0ms)[0m  SELECT "roles".* FROM "roles" INNER JOIN "role_users" ON "roles"."id" = "role_users"."role_id" WHERE "role_users"."user_id" = $1  [["user_id", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35mRole Load (0.0ms)[0m  SELECT  "roles".* FROM "roles" WHERE "roles"."name" = $1  ORDER BY "roles"."id" ASC LIMIT 1  [["name", "Admin"]]
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36mRole Load (0.0ms)[0m  [1mSELECT  "roles".* FROM "roles" WHERE "roles"."name" = $1  ORDER BY "roles"."id" ASC LIMIT 1[0m  [["name", "Admin"]]
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (10.0ms)[0m  [1mINSERT INTO "role_users" ("user_id", "role_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 1], ["role_id", 1], ["created_at", "2016-12-02 21:39:25.834812"], ["updated_at", "2016-12-02 21:39:25.834812"]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36mSQL (0.0ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (10.0ms)[0m  DROP TABLE "comments" CASCADE
+  [1m[36m (20.0ms)[0m  [1mCREATE TABLE "comments" ("id" serial primary key, "user_id" integer, "ticket_id" integer, "comment" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (10.0ms)[0m  CREATE  INDEX  "index_comments_on_ticket_id" ON "comments" USING btree ("ticket_id")
+  [1m[36m (10.0ms)[0m  [1mCREATE  INDEX  "index_comments_on_user_id" ON "comments" USING btree ("user_id")[0m
+  [1m[35m (10.0ms)[0m  DROP TABLE "role_users" CASCADE
+  [1m[36m (10.0ms)[0m  [1mCREATE TABLE "role_users" ("id" serial primary key, "user_id" integer, "role_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (7.5ms)[0m  CREATE  INDEX  "index_role_users_on_role_id" ON "role_users" USING btree ("role_id")
+  [1m[36m (0.0ms)[0m  [1mCREATE  INDEX  "index_role_users_on_user_id" ON "role_users" USING btree ("user_id")[0m
+  [1m[35m (10.0ms)[0m  DROP TABLE "roles" CASCADE
+  [1m[36m (20.0ms)[0m  [1mCREATE TABLE "roles" ("id" serial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (10.0ms)[0m  DROP TABLE "tickets" CASCADE
+  [1m[36m (20.0ms)[0m  [1mCREATE TABLE "tickets" ("id" serial primary key, "title" character varying, "description" text, "user_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (10.0ms)[0m  CREATE  INDEX  "index_tickets_on_user_id" ON "tickets" USING btree ("user_id")
+  [1m[36m (10.0ms)[0m  [1mDROP TABLE "users" CASCADE[0m
+  [1m[35m (20.0ms)[0m  CREATE TABLE "users" ("id" serial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "fullname" character varying, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "status" boolean, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (10.0ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_email" ON "users" USING btree ("email")[0m
+  [1m[35m (10.0ms)[0m  CREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users" USING btree ("reset_password_token")
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35mSQL (0.0ms)[0m  CREATE EXTENSION IF NOT EXISTS "plpgsql"
+  [1m[36m (20.0ms)[0m  [1mDROP TABLE "comments" CASCADE[0m
+  [1m[35m (20.0ms)[0m  CREATE TABLE "comments" ("id" serial primary key, "user_id" integer, "ticket_id" integer, "comment" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mCREATE  INDEX  "index_comments_on_ticket_id" ON "comments" USING btree ("ticket_id")[0m
+  [1m[35m (10.0ms)[0m  CREATE  INDEX  "index_comments_on_user_id" ON "comments" USING btree ("user_id")
+  [1m[36m (10.0ms)[0m  [1mDROP TABLE "role_users" CASCADE[0m
+  [1m[35m (30.0ms)[0m  CREATE TABLE "role_users" ("id" serial primary key, "user_id" integer, "role_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (20.0ms)[0m  [1mCREATE  INDEX  "index_role_users_on_role_id" ON "role_users" USING btree ("role_id")[0m
+  [1m[35m (20.0ms)[0m  CREATE  INDEX  "index_role_users_on_user_id" ON "role_users" USING btree ("user_id")
+  [1m[36m (10.0ms)[0m  [1mDROP TABLE "roles" CASCADE[0m
+  [1m[35m (40.0ms)[0m  CREATE TABLE "roles" ("id" serial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (10.0ms)[0m  [1mDROP TABLE "tickets" CASCADE[0m
+  [1m[35m (20.0ms)[0m  CREATE TABLE "tickets" ("id" serial primary key, "title" character varying, "description" text, "user_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (10.0ms)[0m  [1mCREATE  INDEX  "index_tickets_on_user_id" ON "tickets" USING btree ("user_id")[0m
+  [1m[35m (10.0ms)[0m  DROP TABLE "users" CASCADE
+  [1m[36m (30.0ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "fullname" character varying, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "status" boolean, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (10.0ms)[0m  CREATE UNIQUE INDEX  "index_users_on_email" ON "users" USING btree ("email")
+  [1m[36m (10.0ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users" USING btree ("reset_password_token")[0m
+  [1m[35m (0.0ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mRole Exists (0.0ms)[0m  [1mSELECT  1 AS one FROM "roles" WHERE "roles"."name" = 'Admin' LIMIT 1[0m
+  [1m[35mSQL (10.0ms)[0m  INSERT INTO "roles" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "Admin"], ["created_at", "2016-12-02 21:39:58.501862"], ["updated_at", "2016-12-02 21:39:58.501862"]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mRole Exists (0.0ms)[0m  [1mSELECT  1 AS one FROM "roles" WHERE "roles"."name" = 'Customer' LIMIT 1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "roles" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "Customer"], ["created_at", "2016-12-02 21:39:58.511862"], ["updated_at", "2016-12-02 21:39:58.511862"]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mRole Exists (0.0ms)[0m  [1mSELECT  1 AS one FROM "roles" WHERE "roles"."name" = 'SupportHead' LIMIT 1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "roles" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "SupportHead"], ["created_at", "2016-12-02 21:39:58.511862"], ["updated_at", "2016-12-02 21:39:58.511862"]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'admin@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "users" ("fullname", "email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["fullname", "mani"], ["email", "admin@gmail.com"], ["encrypted_password", "$2a$11$GIE.GRWhQ5qN4sFcREko2era7wUt5Y6fddIEvOZWLYrD1A7kklrLK"], ["created_at", "2016-12-02 21:39:58.701863"], ["updated_at", "2016-12-02 21:39:58.701863"]]
+  [1m[36mRole Load (0.0ms)[0m  [1mSELECT  "roles".* FROM "roles" WHERE "roles"."name" = $1  ORDER BY "roles"."id" ASC LIMIT 1[0m  [["name", "Customer"]]
+  [1m[35m (10.0ms)[0m  COMMIT
+  [1m[36mRole Load (0.0ms)[0m  [1mSELECT  "roles".* FROM "roles" WHERE "roles"."name" = $1  ORDER BY "roles"."id" ASC LIMIT 1[0m  [["name", "Admin"]]
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "role_users" ("user_id", "role_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 1], ["role_id", 1], ["created_at", "2016-12-02 21:39:58.771863"], ["updated_at", "2016-12-02 21:39:58.771863"]]
+  [1m[35m (0.0ms)[0m  COMMIT
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-03 03:10:06 +0530
+Processing by TicketsController#index as HTML
+  [1m[35mUser Load (2.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 401 Unauthorized in 8ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-12-03 03:10:06 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (1.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (31.0ms)
+  Rendered application/_navbar.html.erb (0.0ms)
+Completed 200 OK in 606ms (Views: 604.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-48bd0c86b2cd7278c0ff9f5fc705e19858c116cc154d57a513b93a56a31ca2e6.css?body=1" for 127.0.0.1 at 2016-12-03 03:10:07 +0530
+
+
+Started GET "/assets/bootstrap-material-design.min.self-5eca3b9e412190c478a60341eeee3bfd5626cafd5635345d47d1cf6616f12009.css?body=1" for 127.0.0.1 at 2016-12-03 03:10:07 +0530
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-12-03 03:10:07 +0530
+
+
+Started GET "/assets/font-awesome.self-2a86d2017f4b74f22943750b3b50b9cb753581bab96cbdaaf2df53f4c04c995b.css?body=1" for 127.0.0.1 at 2016-12-03 03:10:07 +0530
+
+
+Started GET "/assets/application.self-046c6d7dec7f7f0fb45286d189d0ccc2b9d441512db304881f46a21b55006030.css?body=1" for 127.0.0.1 at 2016-12-03 03:10:07 +0530
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-12-03 03:10:07 +0530
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-12-03 03:10:07 +0530
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-12-03 03:10:07 +0530
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-12-03 03:10:07 +0530
+
+
+Started GET "/assets/material.min.self-c4bc7daadf79bbcf4f2ca8191bdfc7ec86f5c6b3f20ae8b6d41bd8af28d9f735.js?body=1" for 127.0.0.1 at 2016-12-03 03:10:07 +0530
+
+
+Started GET "/assets/ripples.min.self-694723e2b2814bfbba56d969ededb398f4b91d08ea541e685cf9bb744f935802.js?body=1" for 127.0.0.1 at 2016-12-03 03:10:07 +0530
+
+
+Started GET "/assets/services.self-fe752a7dfe9490dad8160aaa3ba5400b33a309a7f89d83c151a4d50b94099076.js?body=1" for 127.0.0.1 at 2016-12-03 03:10:07 +0530
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-12-03 03:10:07 +0530
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-12-03 03:10:20 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rxuo2ELF2jq8G5ak6aCEED4z877AOFDwnK2d0NtTi2o7sWYZ9026Hz37BmB0+YRPvZHlmPFxJIAVp2MjBt0k/A==", "user"=>{"email"=>"admin@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (5.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "admin@gmail.com"]]
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "last_sign_in_ip" = $3, "current_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = $7[0m  [["last_sign_in_at", "2016-12-02 21:40:20.835004"], ["current_sign_in_at", "2016-12-02 21:40:20.835004"], ["last_sign_in_ip", "127.0.0.1/32"], ["current_sign_in_ip", "127.0.0.1/32"], ["sign_in_count", 1], ["updated_at", "2016-12-02 21:40:20.837504"], ["id", 1]]
+  [1m[35m (2.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 442ms (ActiveRecord: 7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-03 03:10:21 +0530
+Processing by TicketsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mTicket Load (2.5ms)[0m  SELECT "tickets".* FROM "tickets"
+  Rendered tickets/index.html.erb within layouts/application (2.5ms)
+  [1m[36m (7.5ms)[0m  [1mSELECT "roles"."name" FROM "roles" INNER JOIN "role_users" ON "roles"."id" = "role_users"."role_id" WHERE "role_users"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered application/_navbar.html.erb (12.5ms)
+Completed 200 OK in 265ms (Views: 250.9ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2016-12-03 03:10:21 +0530
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff2"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (2769.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1815.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (4025.1ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2016-12-03 03:10:30 +0530
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (2804.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1830.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (4174.6ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.ttf" for 127.0.0.1 at 2016-12-03 03:10:38 +0530
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby22-x64/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (2817.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1797.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (4239.6ms)

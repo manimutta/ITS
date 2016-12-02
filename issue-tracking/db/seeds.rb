@@ -10,3 +10,5 @@ roles = ["Admin", "Customer", "SupportHead"]
 roles.each do |x|
   Role.create(name: x)
 end
+user = User.create(fullname: "mani", email: "admin@gmail.com", password: "123456789", password_confirmation: "123456789")
+RoleUser.create(user_id: user.id, role_id: Role.where(name: "Admin").first.id)
