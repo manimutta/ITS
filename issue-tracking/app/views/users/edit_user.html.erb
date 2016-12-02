@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <div class="well">
+        <h2>Edit User</h2>
+        <%= form_tag(user_path(@user), method: :patch) do %>
+          <div class="checkbox">
+            <% @roles.each do |role| %>
+              <label>
+                <input type="checkbox" value="<%= role.id%>" <%= "checked" if @user.has_role(role.name) %> name="roles[]"><span class="checkbox-material"></span> <%= role.name %> 
+              </label>
+            <% end %>
+          </div>
+
+        <div class="col-md-12">
+          <h3>Accoutn Status</h3>
+          <div class="radio radio-primary">
+            <label>
+              <input type="radio" name="status" id="optionsRadios1" value="1" checked=""><span class="circle"></span><span class="check"></span>
+              Active
+            </label>
+          </div>
+          <div class="radio radio-primary">
+            <label>
+              <input type="radio" name="status" id="optionsRadios2" value="0"><span class="circle"></span><span class="check"></span>
+              Deactive
+            </label>
+          </div>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary btn-raised">SUbmit</button>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

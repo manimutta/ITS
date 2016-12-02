@@ -1,0 +1,71 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="well">
+        <div class="row">
+          <div class="col-md-5">
+            <%= link_to 'Edit', edit_ticket_path(@ticket) , class: "btn btn-primary btn-raised"%>
+          </div>
+          <div class="col-md-7" align="right">
+            <%= link_to 'Back', tickets_path , class: "btn btn-primary btn-raised"%>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-offset-1">
+          <h3 >Title:   <%= @ticket.title %></h3>
+          </div>
+          <div class="col-md-offset-1">
+          <h4>
+            <strong>Description:</strong>
+            <%= @ticket.description %>
+          </h4>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <%= form_tag(comments_path(id: @ticket), method: :post) do %>
+              <div class="form-group">
+                <div align="right">
+                <label for="textArea" class="col-md-2 col-md-offset-1 control-label">Comment: </label>
+                </div>
+                <div class="col-md-7">
+                  <textarea style="width: 100%;" required rows="4" name="comment[comment]" class="input-no-material" id="textArea" placeholder="comment here"></textarea>
+                </div>
+                <div class="col-md-2">
+                  <button class="btn btn-sm btn-primary btn-raised">Submit</button>
+                  </div>
+              </div>
+            <% end %>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="list-group">
+              <% @comments.each do |comment|%>
+                <div class="list-group-separator"></div>
+                <div class="list-group-item">
+                  <div class="row-picture cold-md-2">
+                    <img class="circle" src="http://placehold.it/56x56" alt="icon">
+                  </div>
+                  <div class="row-content">
+                    <div class="col-md-9">
+                      <h4 class="list-group-item-heading"><%= comment.user.getname %></h4>
+                      <p class="list-group-item-text"><%= comment.comment %></p>
+                    </div>
+                    <div class=" col-md-3 pull-right">
+                      <% if comment.user == current_user %>
+                        <%= link_to "Delete", comment_path(id: comment), method: :DELETE, class: "btn btn-sm btn-primary" %>
+                      <% end %>
+                    </div>
+                  </div>
+                </div>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

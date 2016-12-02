@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-5 col-md-offset-3">
+      <div class="well">
+        <h2>Sign up</h2>
+        <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+
+
+          <div class="field">
+            <%= f.text_field :fullname, autofocus: true, class: "input-no-material", placeholder: "fullname" %>
+          </div>
+          <br>
+          <div class="field">
+            <%= f.email_field :email, autofocus: true, class: "input-no-material", placeholder: "Email" %>
+          </div>
+          <br>
+
+          <div class="field">
+            <%= f.password_field :password, autocomplete: "off", class: "input-no-material", placeholder: "Password" %>
+          </div>
+          <br>
+
+          <div class="field">
+            <%= f.password_field :password_confirmation, autocomplete: "off", class: "input-no-material", placeholder: "Password Confirm" %>
+          </div>
+          <br>
+
+          <div class="actions">
+            <%= f.submit "Sign up", class: "btn btn-primary btn-raised" %>
+            <a href="/users/sign_in"><button class="btn btn-primary btn-raised">Sign In</button></a>
+          </div>
+        <% end %>
+    </div>
+  </div>
+</div>

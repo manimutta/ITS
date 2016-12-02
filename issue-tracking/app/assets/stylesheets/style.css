@@ -1,0 +1,60 @@
+.dataTables_length{
+  float: left;
+}
+
+.checkbox label, .radio label, label{
+  color: #333;
+}
+.dataTables_info{
+  float: left;
+}
+.previous{
+  display: none;
+}
+.next{
+  display: none;
+}
+.paginate_button
+{
+  z-index: 3;
+    color: #fff;
+    padding: 6px 12px;
+    cursor: default;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.pagination>li>a, .pagination>li>span{
+  position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.form-group .checkbox label, .form-group .radio label, .form-group label
+{
+  color: #333;
+}
+.input-no-material
+{
+  border-width: 0px !important;
+  width: 100%;
+  color: #333;
+  border-radius: 4px;
+  box-shadow: 0px 0px 8.19px 0.81px rgba(185,185,185,0.35);
+  text-transform: uppercase;
+  font-family: Open sans;
+  background-color: #fff !important;
+    padding: 3px 20px;
+  /*width: 175px !important;*/
+}

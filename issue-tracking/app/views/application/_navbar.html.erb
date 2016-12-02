@@ -1,0 +1,32 @@
+<div class="bs-component">
+  <div class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="javascript:void(0)">Zendesk</a>
+      </div>
+      <div class="navbar-collapse collapse navbar-inverse-collapse">
+        <ul class="nav navbar-nav">
+          <% if user_signed_in? %>
+            <% if current_user.has_role("Admin") %>
+              <li class="active"><a href="/users">Users</a></li>
+            <% end %>
+          <% end %>
+          <li><a href="/tickets">Tickets</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <% if !user_signed_in? %>
+          <li><a href="/users/sign_in">Sign In</a></li>
+          <li><a href="/users/sign_up">Sign Up</a></li>  
+          <% else %>
+           <li> <%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </div>
+<div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div></div>
