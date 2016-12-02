@@ -13,7 +13,7 @@
         <ul class="nav navbar-nav">
           <% if user_signed_in? %>
             <% if current_user.has_role("Admin") %>
-              <li class="active"><a href="/users">Users</a></li>
+              <li><a href="/users">Users</a></li>
             <% end %>
           <% end %>
           <li><a href="/tickets">Tickets</a></li>
