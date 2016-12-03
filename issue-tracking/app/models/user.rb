@@ -17,7 +17,7 @@ class User < ActiveRecord::Base
   end
 
   def set_roles
-    RoleUser.create(user_id: self.id, role_id: Role.where(name: "Customer").first)
+    RoleUser.create(user_id: self.id, role_id: Role.where(name: "Customer").first.id)
   end
 
   def getname
