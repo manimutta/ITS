@@ -16,13 +16,13 @@
           <h3>Accoutn Status</h3>
           <div class="radio radio-primary">
             <label>
-              <input type="radio" name="status" id="optionsRadios1" value="1" checked=""><span class="circle"></span><span class="check"></span>
+              <input type="radio" name="status" id="optionsRadios1" value="1" <%= "checked" if current_user.status %>><span class="circle"></span><span class="check"></span>
               Active
             </label>
           </div>
           <div class="radio radio-primary">
             <label>
-              <input type="radio" name="status" id="optionsRadios2" value="0"><span class="circle"></span><span class="check"></span>
+              <input type="radio" name="status" id="optionsRadios2" value="0"  <%= "checked" if !current_user.status %>><span class="circle"></span><span class="check"></span>
               Deactive
             </label>
           </div>

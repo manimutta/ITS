@@ -24,7 +24,7 @@ class User < ActiveRecord::Base
     if self.fullname.blank?
       return "User"
     else
-      return self.username
+      return self.fullname
     end
   end
 end
