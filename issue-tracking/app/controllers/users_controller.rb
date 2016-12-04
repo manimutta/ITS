@@ -17,7 +17,7 @@ class UsersController < ApplicationController
   # PATCH/PUT /users/1
   # PATCH/PUT /users/1.json
   def update
-    @user.roles.destroy
+     @user.role_users.map{|x| x.destroy}
     params[:roles].each do |role|
       RoleUser.create(user_id: @user.id, role_id: role)
     end
